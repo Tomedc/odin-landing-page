@@ -23,9 +23,28 @@ body {
     color:#f9faf8;
   }
 
-  h2 {
+  .header-a {
     font-size:18px;
     color:#e5e7eb;
   }
 
-  
+  .text {
+    color:#1f2937;
+  }
+
+  p {
+    color:#f9faf8;
+  }
+
+
+
+  #logo {
+    font-size:24px;
+    color:#f9faf8
+  }
+
+  .btn{
+    background-color:#3882f6;
+
+  }
+
