@@ -28,8 +28,12 @@ body {
     color:#e5e7eb;
   }
 
-  .text {
+  .txt {
     color:#1f2937;
+  }
+
+  .img-txt  {
+    color:#f9faf8
   }
 
   p {
@@ -40,6 +44,10 @@ body {
 
   #logo {
     font-size:24px;
+    
+  }
+
+  h2  {
     color:#f9faf8
   }
 
@@ -48,3 +56,17 @@ body {
 
   }
 
+  blockquote,.quotee-txt {
+    color:#1f2937;
+    background-color: #e5e7eb;
+  }
+
+  .b-sec  {
+    background-color: #3882f6;
+  }
+
+  .footer {
+    background-color: #1f2937;
+    color:#f9faf8;
+    padding: 24px;
+  }
