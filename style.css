@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    height: 100vh;
     margin: 0;
     overflow: hidden;
     font-family: Roboto, sans-serif;
@@ -11,7 +10,10 @@ body {
 
   .header   {
     background-color: #1f2937;
+    display:flex;
+   
   }
+
   
   .welcome-content  {
     background-color:#1f2937;
@@ -26,6 +28,8 @@ body {
   .header-a {
     font-size:18px;
     color:#e5e7eb;
+    padding: 24px;
+    align-items: flex-end;
   }
 
   .txt {
@@ -33,14 +37,14 @@ body {
   }
 
   .img-txt  {
-    color:#f9faf8
+    color:#f9faf8;
+    background-color:rgb(148, 146, 146);
+    padding:15px;
   }
 
   p {
     color:#f9faf8;
   }
-
-
 
   #logo {
     font-size:24px;
@@ -48,17 +52,33 @@ body {
   }
 
   h2  {
-    color:#f9faf8
+    color:#f9faf8;
   }
 
   .btn{
     background-color:#3882f6;
+    border-radius:5px;
+    color:#f9faf8;
+    padding:8px;
+    border:none;
+    font-size:15px;
+    font-weight: bold;
 
   }
 
-  blockquote,.quotee-txt {
+  blockquote {
+    font-style: italic;
     color:#1f2937;
     background-color: #e5e7eb;
+    font-size:12px;
+  }
+
+  .quotee-txt {
+    font-style:normal;
+    font-weight:bold;
+    color:#1f2937;
+    background-color: #e5e7eb;
+
   }
 
   .b-sec  {
@@ -69,4 +89,16 @@ body {
     background-color: #1f2937;
     color:#f9faf8;
     padding: 24px;
+  }
+
+  .card {
+    border: 2px solid #3882f6;
+    border-radius: 1px;
+    padding:16px;
+    width:100px;
+    border-radius:5px;
+  }
+  
+  .m-txt  {
+    color:#1f2937;
   }
